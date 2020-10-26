@@ -1,3 +1,13 @@
+.title {
+  height: 5rem;
+}
+
+.title h1 {
+  font-size: 2rem;
+  text-align: center;
+  line-height: 5rem;
+}
+
 .btn {
   font-size: 1.6rem;
   font-weight: 700;
@@ -20,8 +30,14 @@
   border-radius: 0.5rem;
 }
 
-.btn_wrapper {
+.container .btn_wrapper {
   margin: 0 auto;
+  text-align: center;
+}
+
+.container .btn_wrapper h3 {
+  font-weight: 700;
+  line-height: 1.7;
 }
 
 #btn01 {
@@ -30,6 +46,37 @@
 }
 
 #btn01:hover {
+  color: #fff;
+  background: #f56500;
+}
+
+#btn02 {
+  color: #333333;
+  background: #ffffff;
+  -webkit-box-shadow: 20px 20px 40px #d9d9d9,  -20px -20px 40px #ffffff;
+          box-shadow: 20px 20px 40px #d9d9d9,  -20px -20px 40px #ffffff;
+}
+
+#btn02:hover {
+  color: #000000;
+  background: linear-gradient(145deg, #e6e6e6, #ffffff);
+  -webkit-box-shadow: 20px 20px 40px #d9d9d9,  -20px -20px 40px #ffffff;
+          box-shadow: 20px 20px 40px #d9d9d9,  -20px -20px 40px #ffffff;
+}
+
+#btn02:active {
+  background: #ffffff;
+  -webkit-box-shadow: inset 20px 20px 40px #d9d9d9,  inset -20px -20px 40px #ffffff;
+          box-shadow: inset 20px 20px 40px #d9d9d9,  inset -20px -20px 40px #ffffff;
+}
+
+#btn03 {
+  color: #fff;
+  background-color: #eb6100;
+  border-radius: 100vh;
+}
+
+#btn03:hover {
   color: #fff;
   background: #f56500;
 }
