@@ -31,6 +31,7 @@
 }
 
 .container {
+  margin-bottom: 5rem;
   .btn_wrapper {
     margin: 0 auto;
     text-align: center;
@@ -83,6 +84,20 @@
     background: #f56500;
   
   }
+}
+
+#btn04 {
+  color: #ffffff;
+  background: #f56500;
+  border-bottom: solid 4px #6b2d02;
+  display: inline-block;
+  text-decoration: none;
+  &:active{
+    border: none;
+    transform: translateY(.25rem);
+    transition: .2s;
+  }
+
 }
 
 
